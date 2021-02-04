@@ -1,4 +1,4 @@
-<section>
+<section id="contact">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
 
         <!-- CTA box -->
@@ -28,18 +28,33 @@
 
                 <!-- CTA content -->
                 <div class="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-                    <h3 class="h3 font-red-hat-display text-gray-100">Free until you’re ready to launch</h3>
+                    <h3 class="h3 font-red-hat-display text-gray-100">Contact for more details</h3>
                 </div>
 
+
+                <form class="w-full lg:w-1/2" method="POST" action="https://formspree.io/xlepdwgw">
+                    <div class="flex flex-col sm:flex-col justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
+                        <input class="form-input w-full h-full mb-2 sm:mb-1 sm:mr-2" type="text" name="name" id="name" placeholder="Name"/>     
+                        <input class="form-input w-full h-full mb-2 sm:mb-1 sm:mr-2" type="text" name="email" id="email" placeholder="Email"/>
+                        <textarea class="form-input w-full h-full mb-2 sm:mb-1 sm:mr-2" name="message" id="message" rows="5" placeholder="Message"></textarea>
+
+                    </div>
+                    <ul>
+                        <li><input type="submit" value="Send" class="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0" /></li>
+                    </ul>
+                </form>
+
                 <!-- CTA form -->
-                <form class="w-full lg:w-1/2">
+                <!-- <form class="w-full lg:w-1/2" >
                     <div class="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                         <input type="tel" class="form-input w-full mb-2 sm:mb-0 sm:mr-2" placeholder="Phone number" aria-label="Phone number" />
                         <a class="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0" href="#0">Request code</a>
-                    </div>
+                    </div> -->
+
+                    
                     <!-- Success message -->
                     <!-- <p class="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> -->
-                </form>
+                <!-- </form> -->
 
             </div>
 
